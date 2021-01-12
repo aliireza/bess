@@ -2,8 +2,10 @@
 
 #include <sys/mman.h>
 
+extern "C" {
 #include <rte_errno.h>
 #include <rte_mempool.h>
+}
 
 #include "dpdk.h"
 #include "opts.h"
